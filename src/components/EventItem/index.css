@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin: 5px;
+}
+
+.event-btn {
+  background-color: transparent;
+  border: none;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  outline-color: #2dd4bf;
+  cursor: pointer;
+}
+
+.event-img {
+  width: 190px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.event-name {
+  color: white;
+  text-align: start;
+}
+
+.event-location {
+  color: whitesmoke;
+  text-align: start;
+}

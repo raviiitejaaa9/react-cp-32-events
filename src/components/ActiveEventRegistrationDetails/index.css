@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.registered-container {
+  width: 35vw;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.registered-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.reg-closed-img {
+  width: 240px;
+  height: 200px;
+}
+
+.no-data {
+  padding: 10px;
+  color: #475569;
+}
+
+.yet-to-be-registered-icon {
+  height: 310px;
+  width: 290px;
+}
+
+.register-btn {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background-color: #0967d2;
+  width: 130px;
+  height: 31px;
+}

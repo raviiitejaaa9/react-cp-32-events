@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.events-container {
+  width: 65vw;
+  height: 100vh;
+  border: none;
+  background-color: #64748b;
+  border: none;
+  padding: 10px;
+}
+
+.events-head {
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.list-container {
+  list-style-type: none;
+  width: 95%;
+  padding: 10px;
+  flex-wrap: wrap;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
